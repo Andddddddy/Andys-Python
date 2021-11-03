@@ -2,7 +2,7 @@ import re
 
 
 # 讀取資料文本
-sample = open("/Users/shijunliao/Desktop/Python/Github/Andys-Python/NLP 經典機器學習馬拉松/Day 4/fradulent_emails.txt",'r').read()
+sample = open("/Users/shijunliao/Desktop/Python/Github/Andys-Python/Raw_data/fradulent_emails.txt",'r').read()
 sample_corpus = sample[:11590]
 
 
@@ -36,7 +36,7 @@ import email
 
 ###讀取文本資料:fradulent_emails.txt###
 #<your code>#
-fradulent_emails = open("/Users/shijunliao/Desktop/Python/Github/Andys-Python/NLP 經典機器學習馬拉松/Day 4/fradulent_emails.txt",'r').read()
+fradulent_emails = open("/Users/shijunliao/Desktop/Python/Github/Andys-Python/Raw_data/fradulent_emails.txt",'r').read()
 emails = re.split(r'From r  ', fradulent_emails)
 
 #<your code>#
